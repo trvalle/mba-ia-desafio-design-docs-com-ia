@@ -50,7 +50,7 @@ Nova Cargo) que consomem nossa API e mantêm sistemas próprios reagindo a pedid
 | Objetivo | Métrica | Meta |
 |---|---|---|
 | Notificar quase em tempo real | Latência da notificação (mudança de status → entrega) | **< 10s** no caso comum ([09:02] Marcos) |
-| Entrega confiável | Taxa de entrega bem-sucedida (sem cair em DLQ) | **≥ 99%** dos eventos entregues dentro da janela de retry |
+| Entrega confiável | Taxa de entrega bem-sucedida (sem cair em DLQ) | **≥ 99%** dos eventos entregues dentro da janela de retry _(meta proposta — a confirmar com produto; não foi cravada na reunião)_ |
 | Reduzir polling dos clientes | Redução de chamadas a `GET /orders` pelos 3 clientes-piloto | Queda relevante após adoção (baseline medido no piloto) |
 | Não regredir pedidos | Impacto na latência de `changeStatus` | Sem degradação perceptível na mudança de status |
 
