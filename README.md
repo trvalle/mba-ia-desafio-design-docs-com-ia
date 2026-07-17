@@ -187,6 +187,6 @@ DESAFIO_DESIGN_DOCS.md                      Enunciado original do desafio
 
 ## Enunciado original
 
-O enunciado completo do desafio está em
-[`DESAFIO_DESIGN_DOCS.md`](DESAFIO_DESIGN_DOCS.md), e a transcrição da reunião que
-serviu de base em [`TRANSCRICAO.md`](TRANSCRICAO.md).
+O enunciado completo do desafio está no arquivo `DESAFIO_DESIGN_DOCS.md`, e a
+transcrição da reunião que serviu de base em
+[`TRANSCRICAO.md`](TRANSCRICAO.md).
