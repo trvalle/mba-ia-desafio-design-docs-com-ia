@@ -56,7 +56,7 @@ sprints.**
 | ADR-001 | docs/adrs/ADR-001-outbox-no-mysql.md | Decisão | Transactional Outbox no MySQL, transação atômica, snapshot na inserção | TRANSCRICAO | [09:06] Diego / [09:08] Larissa |
 | ADR-002 | docs/adrs/ADR-002-retry-backoff-e-dlq.md | Decisão | Retry backoff 1m/5m/30m/2h/12h, 5 tentativas, DLQ em tabela separada | TRANSCRICAO | [09:17] Larissa / [09:18] Diego |
 | ADR-003 | docs/adrs/ADR-003-hmac-sha256-secret-por-endpoint.md | Decisão | HMAC-SHA256, secret por endpoint, rotação com grace de 24h | TRANSCRICAO | [09:20]–[09:22] Sofia |
-| ADR-004 | docs/adrs/ADR-004-entrega-at-least-once-x-event-id.md | Decisão | Entrega at-least-once, dedup por X-Event-Id | TRANSCRICAO | [09:24]–[09:26] Diego |
+| ADR-004 | docs/adrs/ADR-004-entrega-at-least-once-x-event-id.md | Decisão | Entrega at-least-once, dedup por X-Event-Id | TRANSCRICAO | [09:24]–[09:25] Diego (formalizada [09:26] Larissa) |
 | ADR-005 | docs/adrs/ADR-005-worker-processo-separado-polling.md | Decisão | Worker em processo separado, polling 2s, single-worker | TRANSCRICAO | [09:09]–[09:11] Diego |
 | ADR-006 | docs/adrs/ADR-006-reuso-padroes-existentes.md | Decisão | Reuso de AppError, Pino, error middleware, padrão de módulos, prefixo WEBHOOK_ | TRANSCRICAO | [09:27]–[09:30] Bruno / Larissa |
 | ADR-DET-01 | docs/adrs/ADR-001-...md | Decisão | Id da outbox é UUID (padrão do projeto) | TRANSCRICAO | [09:51] Larissa |
@@ -106,7 +106,7 @@ sprints.**
 | PRD-RISK-02 | docs/PRD.md | Risco | Cliente não implementa dedup e processa duplicado | TRANSCRICAO | [09:25] Sofia |
 | PRD-RISK-03 | docs/PRD.md | Risco | Atraso compromete prazo comercial com a Atlas | TRANSCRICAO | [09:00] Marcos / [09:45] Marcos |
 | PRD-RISK-04 | docs/PRD.md | Risco | Vazamento de secret pelo cliente | TRANSCRICAO | [09:22] Diego |
-| RFC-RISK-05 | docs/RFC.md | Risco | Contenção de conexões MySQL (API + worker) | TRANSCRICAO | [09:30] Diego / Bruno |
+| RFC-RISK-05 | docs/RFC.md | Risco | Contenção de conexões MySQL (API + worker) | TRANSCRICAO | [09:29] Diego / [09:30] Bruno |
 | RFC-RISK-06 | docs/RFC.md | Risco | Latência mínima de 2s por design | TRANSCRICAO | [09:10] Larissa |
 
 ## Contratos Públicos (FDD)
